@@ -7,7 +7,26 @@
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarTitleText": "第一个小程序",
     "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/main",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/logs/main",
+        "text": "日志"
+      },
+      {
+        "pagePath": "pages/counter/main",
+        "text": "test-vue"
+      }
+    ],
+    "color": "#333",
+    "selectedColor": "#00f",
+    "backgroundColor": "#0f0"
   }
 }
