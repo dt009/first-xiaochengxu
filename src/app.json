@@ -2,7 +2,8 @@
   "pages": [
     "pages/index/main",
     "pages/logs/main",
-    "pages/counter/main"
+    "pages/counter/main",
+    "pages/fetch/main"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -23,6 +24,10 @@
       {
         "pagePath": "pages/counter/main",
         "text": "test-vue"
+      },
+      {
+        "pagePath": "pages/fetch/main",
+        "text": "fetch"
       }
     ],
     "color": "#333",
